@@ -10,7 +10,7 @@ class Auth {
 
     public function login($username, $password) {
         $username = $this->db->real_escape_string($username);
-        $password = md5($password); // Gunakan md5 jika itu yang tersimpan
+        $password = md5($password); 
 
         $sql = "SELECT * FROM users WHERE username='$username' AND password='$password'";
         $result = $this->db->query($sql);

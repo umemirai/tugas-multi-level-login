@@ -36,7 +36,7 @@ if ($_SESSION['level'] != 0) header("Location: user.php");
   </style>
 </head>
 <body>
-  <!-- Sidebar -->
+
   <div class="sidebar d-flex flex-column">
     <h4 class="text-center py-4 border-bottom">Admin Panel</h4>
     <a href="#">Dashboard</a>
@@ -46,7 +46,6 @@ if ($_SESSION['level'] != 0) header("Location: user.php");
     <a href="logout.php" class="mt-auto text-danger">Logout</a>
   </div>
 
-  <!-- Konten Utama -->
   <div class="content">
     <h2>Selamat datang, <?= $_SESSION['username'] ?> (Admin)</h2>
     <p class="text-muted">Ini adalah halaman dashboard dengan tampilan sidebar.</p>

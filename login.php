@@ -24,8 +24,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 
-
-<!-- Tampilan Form Login -->
 <!DOCTYPE html>
 <html lang="id">
 <head>
